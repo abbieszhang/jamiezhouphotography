@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Koh Samui</title>
+		<meta name="description" content="Koh Samui">
+		<link rel="stylesheet" href="stylesheets/pages.css">
+		
+		<!-- <link rel="stylesheet" href="stylesheets/skeleton.css"> -->
+		<!-- <link rel="stylesheet" href="stylesheets/layout.css"> -->
+	</head>
+	<body>
+		<div class="content">
+			<div class="container">
+				<h1 class="hide-text">
+				<a href="index.html">
+					<img class="websiteLogo" src="images/website logo2.jpg">
+				</a>
+				</h1>
+			</div>
+			
+			<div id="main-nav" class="main page menu">
+				<ul>
+					<li class="border">
+						<a class="border" href="About.html">About</a>
+					</li>
+					<li class="border">
+						<a class="border" href="1.New York City.html">New York City</a>
+					</li>
+					<li class="border">
+						<a class="border" href="2.Shanghai.html">Shanghai</a>
+					</li>
+					<li class="border">
+						<a class="border" href="3.Hong Kong.html">Hong Kong</a>
+					</li>
+					<li class="border">
+						<a class="border" href="4.Vancouver.html">Vancouver</a>
+					</li>
+					<li class="border">
+						<a class="border" href="5.Chengdu.html">Chengdu</a>
+					</li>
+					<li class="border">
+						<a class="border" href="6.Beijing.html">Beijing</a>
+					</li>
+					<li class="border">
+						<a class="border" href="7.Sydney.html">Sydney</a>
+					</li>
+					<li class="border">
+						<a class="border" href="8.Koh Samui.html">Koh Samui</a>
+					</li>
+					<li class="border">
+						<a class="border" href="9.Hangzhou.html">Hangzhou</a>
+					</li>
+					<li class="border">
+						<a class="border" href="10.Life.html">Life</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="slider1_container" style="position: relative; top: 0px; left: 100px; width: 600px; height: 300px;">
+			
+			<div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 300px; top: 0px; width: 600px; height: 300px;">
+				<div>
+					<img u="image" src="images/8.Koh Samui/Koh1.jpg" />
+				</div>
+				<div>
+					<img u="image" src="images/8.Koh Samui/Koh2.jpg" />
+				</div>
+				<div>
+					<img u="image" src="images/8.Koh Samui/Koh3.jpg" />
+				</div>
+				
+				
+				
+			</div>
+			
+			
+			
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			
+			<script src="js/jssor.slider.mini.js"></script>
+			<script>
+			jQuery(document).ready(function ($) {
+			var options = {
+			$ThumbnailNavigatorOptions: {
+			$Class: $JssorThumbnailNavigator$,
+			$ChanceToShow: 2
+			}
+			};
+			var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+			});
+			</script>
+			<script src="js/jquery-1.11.0.min.js"></script>
+			<script src="js/lightbox.js"></script>
+			<script src="js/basic.js"></script>
+			<!-- 	  <footer>
+				<div class="end">
+					<p>Copyright © 2014 Jamie Zhou Photography | Designed and developed by Abby Zhang
+					</p>
+				</div>
+			</footer> -->
+			
+		</body>
+	</html>
