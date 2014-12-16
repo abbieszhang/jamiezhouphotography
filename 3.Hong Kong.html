@@ -5,6 +5,8 @@
 		<title>Hong Kong</title>
 		<meta name="description" content="Hong Kong">
 		<link rel="stylesheet" href="stylesheets/pages.css">
+		<link rel="stylesheet" href="stylesheets/slick.css">
+		<link rel="stylesheet" href="stylesheets/lightbox.css" />
 		
 		<!-- <link rel="stylesheet" href="stylesheets/skeleton.css"> -->
 		<!-- <link rel="stylesheet" href="stylesheets/layout.css"> -->
@@ -58,25 +60,31 @@
 		</div>
 		
 		
-		<div id="slider1_container" style="position: relative; top: 0px; left: 100px; width: 600px; height: 300px;">
-			
-			<div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 300px; top: 0px; width: 600px; height: 300px;">
-				<div>
-					<img u="image" src="images/3.Hong Kong/HK1.jpg" />
+		<div class="slides">
+			<i class="left arrow"><span></span></i>
+			<i class="right arrow"><span></span></i>
+			<div>
+					<a href="images/3.Hong Kong/HK1.jpg" data-lightbox="HK1">
+					<img u="image" src="images/3.Hong Kong/HK1.jpg"/>
 				</div>
 				<div>
+				<a href="images/3.Hong Kong/HK2.jpg" data-lightbox="HK2">
 					<img u="image" src="images/3.Hong Kong/HK2.jpg" />
 				</div>
 				<div>
+				<a href="images/3.Hong Kong/HK3.jpg" data-lightbox="HK3">
 					<img u="image" src="images/3.Hong Kong/HK3.jpg" />
 				</div>
 				<div>
+				<a href="images/3.Hong Kong/HK4.jpg" data-lightbox="HK4">
 					<img u="image" src="images/3.Hong Kong/HK4.jpg" />
 				</div>
 				<div>
+				<a href="images/3.Hong Kong/HK5.jpg" data-lightbox="HK5">
 					<img u="image" src="images/3.Hong Kong/HK5.jpg" />
 				</div>
 				<div>
+				<a href="images/3.Hong Kong/HK6.jpg" data-lightbox="HK6">
 					<img u="image" src="images/3.Hong Kong/HK6.jpg" />
 				</div>
 				
@@ -85,30 +93,23 @@
 			
 			
 			
-			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-			
-			<script src="js/jssor.slider.mini.js"></script>
-			<script>
-			jQuery(document).ready(function ($) {
-			var options = {
-			$ThumbnailNavigatorOptions: {
-			$Class: $JssorThumbnailNavigator$,
-			$ChanceToShow: 2
-			}
-			};
-			var jssor_slider1 = new $JssorSlider$('slider1_container', options);
-			});
-			</script>
-			<script src="js/jquery-1.11.0.min.js"></script>
-			<script src="js/lightbox.js"></script>
-			<script src="js/basic.js"></script>
-
-		<!-- 	  <footer>
-	    <div class="end">
-	     <p>Copyright © 2014 Jamie Zhou Photography | Designed and developed by Abby Zhang
-	    </p>
-	    </div>
-        </footer> -->
-        
-		</body>
-	</html>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<!--<script src="js/basic.js"></script>-->
+		<script src="js/pages.js"></script>
+		
+		<!---lightbox>-->
+		<script src="js/lightbox.min.js"></script>
+		
+		
+	</div>
+	<footer>
+		<div class="end">
+			<p>Copyright © 2014 Jamie Zhou Photography | Designed and developed by Abby Zhang
+			</p>
+		</div>
+	</footer>
+	
+</body>
+</html>

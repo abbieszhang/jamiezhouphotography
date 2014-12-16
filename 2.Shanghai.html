@@ -5,6 +5,8 @@
 		<title>Shanghai</title>
 		<meta name="description" content="Shanghai">
 		<link rel="stylesheet" href="stylesheets/pages.css">
+		<link rel="stylesheet" href="stylesheets/slick.css">
+		<link rel="stylesheet" href="stylesheets/lightbox.css" />
 		
 		<!-- <link rel="stylesheet" href="stylesheets/skeleton.css"> -->
 		<!-- <link rel="stylesheet" href="stylesheets/layout.css"> -->
@@ -56,44 +58,57 @@
 				</li>
 			</ul>
 		</div>
+
+		<div class="slides">
+			<i class="left arrow"><span></span></i>
+			<i class="right arrow"><span></span></i>
+			<div>
 		
-		<div id="slider1_container" style="position: relative; top: 0px; left: 100px; width: 600px; height: 300px;">
-			
-			<div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 300px; top: 0px; width: 600px; height: 300px;">
-				<div>
+		<a href="images/2.Shanghai/SH1.jpg" data-lightbox="SH1">
 					<img u="image" src="images/2.Shanghai/SH1.jpg" />
 				</div>
 				<div>
+					<a href="images/2.Shanghai/SH2.jpg" data-lightbox="SH2">
 					<img u="image" src="images/2.Shanghai/SH2.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH3.jpg" data-lightbox="SH3">
 					<img u="image" src="images/2.Shanghai/SH3.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH4.jpg" data-lightbox="SH4">
 					<img u="image" src="images/2.Shanghai/SH4.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH5.jpg" data-lightbox="SH5">
 					<img u="image" src="images/2.Shanghai/SH5.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH6.jpg" data-lightbox="SH6">
 					<img u="image" src="images/2.Shanghai/SH6.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH7.jpg" data-lightbox="SH7">
 					<img u="image" src="images/2.Shanghai/SH7.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH8.jpg" data-lightbox="SH8">
 					<img u="image" src="images/2.Shanghai/SH8.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH9.jpg" data-lightbox="SH9">
 					<img u="image" src="images/2.Shanghai/SH9.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH10.jpg" data-lightbox="SH10">
 					<img u="image" src="images/2.Shanghai/SH10.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH11.jpg" data-lightbox="SH11">
 					<img u="image" src="images/2.Shanghai/SH11.jpg" />
 				</div>
 				<div>
+				<a href="images/2.Shanghai/SH12.jpg" data-lightbox="SH12">
 					<img u="image" src="images/2.Shanghai/SH12.jpg" />
 				</div>
 	
@@ -101,30 +116,23 @@
 			
 			
 			
-			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-			
-			<script src="js/jssor.slider.mini.js"></script>
-			<script>
-			jQuery(document).ready(function ($) {
-			var options = {
-			$ThumbnailNavigatorOptions: {
-			$Class: $JssorThumbnailNavigator$,
-			$ChanceToShow: 2
-			}
-			};
-			var jssor_slider1 = new $JssorSlider$('slider1_container', options);
-			});
-			</script>
-			<script src="js/jquery-1.11.0.min.js"></script>
-			<script src="js/lightbox.js"></script>
-			<script src="js/basic.js"></script>
-
-		<!-- 	  <footer>
-	    <div class="end">
-	     <p>Copyright © 2014 Jamie Zhou Photography | Designed and developed by Abby Zhang
-	    </p>
-	    </div>
-        </footer> -->
-        
-		</body>
-	</html>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<!--<script src="js/basic.js"></script>-->
+		<script src="js/pages.js"></script>
+		
+		<!---lightbox>-->
+		<script src="js/lightbox.min.js"></script>
+		
+		
+	</div>
+	<footer>
+		<div class="end">
+			<p>Copyright © 2014 Jamie Zhou Photography | Designed and developed by Abby Zhang
+			</p>
+		</div>
+	</footer>
+	
+</body>
+</html>

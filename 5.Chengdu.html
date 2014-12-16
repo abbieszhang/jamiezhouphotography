@@ -5,6 +5,8 @@
 		<title>Chengdu</title>
 		<meta name="description" content="Chengdu">
 		<link rel="stylesheet" href="stylesheets/pages.css">
+		<link rel="stylesheet" href="stylesheets/slick.css">
+		<link rel="stylesheet" href="stylesheets/lightbox.css" />
 		
 		<!-- <link rel="stylesheet" href="stylesheets/skeleton.css"> -->
 		<!-- <link rel="stylesheet" href="stylesheets/layout.css"> -->
@@ -58,40 +60,51 @@
 			</div>
 		</div>
 			
-			<div id="slider1_container" style="position: relative; top: 0px; left: 100px; width: 600px; height: 300px;">
-				
-				<div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 300px; top: 0px; width: 600px; height: 300px;">
-					<div>
+			<div class="slides">
+			<i class="left arrow"><span></span></i>
+			<i class="right arrow"><span></span></i>
+			<div>
+						<a href="images/5.Chengdu/CD1.jpg" data-lightbox="CD1">
 						<img u="image" src="images/5.Chengdu/CD1.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD2.jpg" data-lightbox="CD2">
 						<img u="image" src="images/5.Chengdu/CD2.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD3.jpg" data-lightbox="CD3">
 						<img u="image" src="images/5.Chengdu/CD3.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD4.jpg" data-lightbox="CD4">
 						<img u="image" src="images/5.Chengdu/CD4.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD5.jpg" data-lightbox="CD5">
 						<img u="image" src="images/5.Chengdu/CD5.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD6.jpg" data-lightbox="CD6">
 						<img u="image" src="images/5.Chengdu/CD6.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD7.jpg" data-lightbox="CD7">
 						<img u="image" src="images/5.Chengdu/CD7.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD8.jpg" data-lightbox="CD8">
 						<img u="image" src="images/5.Chengdu/CD8.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD9.jpg" data-lightbox="CD9">
 						<img u="image" src="images/5.Chengdu/CD9.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD10.jpg" data-lightbox="CD10">
 						<img u="image" src="images/5.Chengdu/CD10.jpg" />
 					</div>
 					<div>
+					<a href="images/5.Chengdu/CD11.jpg" data-lightbox="CD11">
 						<img u="image" src="images/5.Chengdu/CD11.jpg" />
 					</div>
 					
@@ -99,30 +112,23 @@
 				</div>
 				
 				
-				
-				<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-				
-				<script src="js/jssor.slider.mini.js"></script>
-				<script>
-				jQuery(document).ready(function ($) {
-				var options = {
-				$ThumbnailNavigatorOptions: {
-				$Class: $JssorThumbnailNavigator$,
-				$ChanceToShow: 2
-				}
-				};
-				var jssor_slider1 = new $JssorSlider$('slider1_container', options);
-				});
-				</script>
-				<script src="js/jquery-1.11.0.min.js"></script>
-				<script src="js/lightbox.js"></script>
-				<script src="js/basic.js"></script>
-				<!-- 	  <footer>
-					<div class="end">
-							<p>Copyright © 2014 Jamie Zhou Photography | Designed and developed by Abby Zhang
-							</p>
-					</div>
-				</footer> -->
-				
-			</body>
-		</html>
+				<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<!--<script src="js/basic.js"></script>-->
+		<script src="js/pages.js"></script>
+		
+		<!---lightbox>-->
+		<script src="js/lightbox.min.js"></script>
+		
+		
+	</div>
+	<footer>
+		<div class="end">
+			<p>Copyright © 2014 Jamie Zhou Photography | Designed and developed by Abby Zhang
+			</p>
+		</div>
+	</footer>
+	
+</body>
+</html>
